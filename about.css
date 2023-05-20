@@ -1,0 +1,84 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    margin-top: 0;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a.active {
+    color: #f00;
+    font-weight: bold;
+  }
+  
+  /* Main styles */
+  main {
+    padding: 20px;
+  }
+  
+  .about {
+    margin-bottom: 40px;
+  }
+  
+  .e6learning {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Media queries */
+  @media screen and (max-width: 768px) {
+    nav ul {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  
+    nav li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
